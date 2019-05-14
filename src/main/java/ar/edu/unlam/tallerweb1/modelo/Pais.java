@@ -8,7 +8,7 @@ public class Pais {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column
     private String nombre;
@@ -23,15 +23,15 @@ public class Pais {
     @JoinColumn(name = "id_ciudad")
     private Ciudad capital;
 
-    @ManyToOne(cascade=CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "id_continente")
     private Continente continente;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

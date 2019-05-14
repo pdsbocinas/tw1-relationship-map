@@ -8,7 +8,7 @@ public class Ciudad {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column
     private String nombre;
@@ -21,11 +21,11 @@ public class Ciudad {
     @JoinColumn(name = "id_ubicacion")
     private Ubicacion ubicacion;
 
-    public int getId () {
+    public Long getId () {
         return id;
     }
 
-    public void setId (int id) {
+    public void setId (Long id) {
         this.id = id;
     }
 

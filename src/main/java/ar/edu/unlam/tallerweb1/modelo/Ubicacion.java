@@ -9,35 +9,35 @@ public class Ubicacion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column
-    private int latitud;
+    private Double latitud;
 
     @Column
-    private int longitud;
+    private Double longitud;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public int getLatitud() {
+    public Double getLatitud() {
         return latitud;
     }
 
-    public void setLatitud(int latitud) {
+    public void setLatitud(Double latitud) {
         this.latitud = latitud;
     }
 
-    public int getLongitud() {
+    public Double getLongitud() {
         return longitud;
     }
 
-    public void setLongitud(int longitud) {
+    public void setLongitud(Double longitud) {
         this.longitud = longitud;
     }
 }

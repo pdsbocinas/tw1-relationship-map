@@ -36,7 +36,7 @@ public class PaisController {
         return new ModelAndView("saludar", model);
     }*/
 
-    // pasar parametros como slugs con PathVariable
+/*    // pasar parametros como slugs con PathVariable
     @RequestMapping("/saludar/{lastname}")
     public ModelAndView saludarPersona(@PathVariable String lastname) {
         ModelMap model = new ModelMap();
@@ -71,6 +71,13 @@ public class PaisController {
         model.addAttribute("idioma", pais.getIdioma());
         model.addAttribute("continente", pais.getContinente());
         return "add";
+    }*/
+
+    @RequestMapping("/{operacion}/{palabra}")
+    public ModelAndView convertirPalabra(@PathVariable String palabra) {
+        ModelMap model = new ModelMap();
+        model.put("palabra", palabra);
+        return new ModelAndView("convertir-palabra", model);
     }
 
 }
