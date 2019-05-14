@@ -31,13 +31,13 @@ public class PaisDaoImpl implements PaisDao {
     }
 
     @Override
-    public Pais getPais(int id) {
+    public Pais getPais(Long id) {
         final Session session = sessionFactory.getCurrentSession();
         return session.get(Pais.class, id);
     }
 
     @Override
-    public void removePais(int id) {
+    public void removePais(Long id) {
         final Session session = sessionFactory.getCurrentSession();
         session.delete(getPais(id));
     }

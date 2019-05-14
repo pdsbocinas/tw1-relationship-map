@@ -22,7 +22,7 @@ public class PaisServicesImpl implements PaisServices {
 
     @Override
     @Transactional
-    public Pais getPais(int id) {
+    public Pais getPais(Long id) {
         return paisDao.getPais(id);
     }
 
@@ -34,7 +34,7 @@ public class PaisServicesImpl implements PaisServices {
 
     @Override
     @Transactional
-    public void removePais(int id) {
+    public void removePais(Long id) {
         paisDao.removePais(id);
     }
 

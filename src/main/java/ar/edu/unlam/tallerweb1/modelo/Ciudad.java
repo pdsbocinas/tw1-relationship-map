@@ -25,31 +25,31 @@ public class Ciudad {
         return id;
     }
 
-    public void setId (Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getNombre () {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre (String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public Pais getPais () {
+    public Pais getPais() {
         return pais;
     }
 
-    public void setPais (Pais pais) {
+    public void setPais(Pais pais) {
         this.pais = pais;
     }
 
-    public Ubicacion getUbicacion () {
+    public Ubicacion getUbicacion() {
         return ubicacion;
     }
 
-    public void setUbicacion (Ubicacion ubicacion) {
+    public void setUbicacion(Ubicacion ubicacion) {
         this.ubicacion = ubicacion;
     }
 }

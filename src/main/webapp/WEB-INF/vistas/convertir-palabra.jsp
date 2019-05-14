@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-    <p>${palabra}</p>
+    <p>El resultado de la operacion <strong>${operacion}</strong> sobre <strong>${palabra}</strong> es:
+        ${resultado}</p>
 </body>
 </html>

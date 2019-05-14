@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface PaisDao {
     List getAllPais();
-    Pais getPais(int id);
+    Pais getPais(Long id);
     void savePais(Pais pais);
-    void removePais(int id);
+    void removePais(Long id);
 }

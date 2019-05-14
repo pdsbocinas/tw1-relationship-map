@@ -7,22 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05b4f19-9bc0-454e-807b-746a9da0f4c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ciudad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ciudad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Pais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ubicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ubicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/controladores/PaisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/controladores/PaisController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Ciudad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Ciudad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Continente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Continente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Pais.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Pais.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Ubicacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ar/edu/unlam/tallerweb1/modelo/Ubicacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tw1-mapa-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/tw1-mapa-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tw1-mapa-0.0.1-SNAPSHOT/WEB-INF/classes/ar/edu/unlam/tallerweb1/controladores/PaisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tw1-mapa-0.0.1-SNAPSHOT/WEB-INF/classes/ar/edu/unlam/tallerweb1/controladores/PaisController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,22 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="98" column="26" selection-start-line="73" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
+            <state relative-caret-position="1468">
+              <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ubicacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="-61">
               <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,10 +79,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Pais.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="-254">
               <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="e#545#546#0" expanded="true" />
@@ -135,22 +145,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="104">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,21 +165,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ciudad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="-31">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,18 +201,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="74">
               <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
@@ -235,22 +246,22 @@
         <option value="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/Equipo/EquipoTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/test-hibernateContext.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/test-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/Valid.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/saludar.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernateContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ubicacion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ciudad.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Pais.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServicesImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ciudad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp" />
       </list>
     </option>
   </component>
@@ -473,7 +484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaisTest.verPaisesCuyaCapitalEsteAlNorteTropicoCancer">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.94">
     <configuration name="PaisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tw1-mapa" />
       <extension name="coverage">
@@ -628,8 +639,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaisTest.verPaisesCuyaCapitalEsteAlNorteTropicoCancer" />
         <item itemvalue="JUnit.PaisTest" />
+        <item itemvalue="JUnit.PaisTest.verPaisesCuyaCapitalEsteAlNorteTropicoCancer" />
         <item itemvalue="JUnit.PaisTest.verPaisesDeHablaInglesa" />
         <item itemvalue="JUnit.PaisTest.verPaisesDeEuropa" />
         <item itemvalue="JUnit.PaisTest.todasLasCiudadesDelHemisferioSur" />
@@ -655,17 +666,11 @@
       <workItem from="1556742158000" duration="9823000" />
       <workItem from="1556817251375" duration="6183000" />
       <workItem from="1557093913606" duration="19831000" />
-      <workItem from="1557705150797" duration="23627000" />
+      <workItem from="1557705150797" duration="25944000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaisTest_verPaisesDeEuropa - 2019.05.14 at 15h 14m 29s.xml">
-      <configuration name="PaisTest.verPaisesDeEuropa" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaisTest_verPaisesDeEuropa - 2019.05.14 at 15h 15m 12s.xml">
-      <configuration name="PaisTest.verPaisesDeEuropa" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaisTest_verPaisesDeEuropa - 2019.05.14 at 15h 15m 42s.xml">
       <configuration name="PaisTest.verPaisesDeEuropa" configurationId="JUnit" />
     </history-entry>
@@ -690,9 +695,15 @@
     <history-entry file="PaisTest_verPaisesCuyaCapitalEsteAlNorteTropicoCancer - 2019.05.14 at 15h 25m 03s.xml">
       <configuration name="PaisTest.verPaisesCuyaCapitalEsteAlNorteTropicoCancer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PaisTest - 2019.05.14 at 16h 07m 11s.xml">
+      <configuration name="PaisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaisTest - 2019.05.14 at 16h 10m 55s.xml">
+      <configuration name="PaisTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82223000" />
+    <option name="totallyTimeSpent" value="84540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="798" extended-state="0" />
@@ -707,7 +718,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -802,45 +813,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/Valid.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServicesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,103 +856,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/home.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="141">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/dao/PaisDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServicesImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/PaisServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="98" column="26" selection-start-line="73" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ubicacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ciudad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="-31">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Pais.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="-254">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="e#545#546#0" expanded="true" />
@@ -1004,6 +958,85 @@
             <element signature="e#1354#1355#0" expanded="true" />
             <element signature="e#1398#1399#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Ubicacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/modelo/Continente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/PaisTest/PaisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1468">
+          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/PaisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/convertir-palabra.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
