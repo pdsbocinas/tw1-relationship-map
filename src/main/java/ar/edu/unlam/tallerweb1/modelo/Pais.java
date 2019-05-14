@@ -1,7 +1,6 @@
 package ar.edu.unlam.tallerweb1.modelo;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name="Pais")
@@ -20,11 +19,12 @@ public class Pais {
     @Column
     private String idioma;
 
-    @Column
-    private String capital;
+    @OneToOne
+    @JoinColumn(name = "id_ciudad")
+    private Ciudad capital;
 
     @ManyToOne(cascade=CascadeType.ALL)
-    @JoinColumn(name = "fk_id_continente")
+    @JoinColumn(name = "id_continente")
     private Continente continente;
 
     public int getId() {
@@ -59,11 +59,11 @@ public class Pais {
         this.idioma = idioma;
     }
 
-    public String getCapital() {
+    public Ciudad getCapital() {
         return capital;
     }
 
-    public void setCapital(String capital) {
+    public void setCapital(Ciudad capital) {
         this.capital = capital;
     }
 

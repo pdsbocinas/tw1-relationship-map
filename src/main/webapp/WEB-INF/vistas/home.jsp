@@ -20,12 +20,7 @@
 					<td>${s.idioma}</td>
 					<td>${s.habitantes}</td>
 					<td>${s.capital}</td>
-					<td>${s.continente}</td>
-				</tr>
-				<tr>
-					<c:forEach items="${s.continente}" var="e">
-						<td>${e.nombre}</td>
-					</c:forEach>
+					<td>${s.continente.nombre}</td>
 				</tr>
 			</c:forEach>
 		</div>

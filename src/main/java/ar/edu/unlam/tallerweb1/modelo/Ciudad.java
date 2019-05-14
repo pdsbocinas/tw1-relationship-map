@@ -14,9 +14,11 @@ public class Ciudad {
     private String nombre;
 
     @ManyToOne
+    @JoinColumn(name = "id_pais")
     private Pais pais;
 
-    @ManyToOne
+    @OneToOne
+    @JoinColumn(name = "id_ubicacion")
     private Ubicacion ubicacion;
 
     public int getId () {
