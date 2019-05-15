@@ -1,8 +1,0 @@
-ar/edu/unlam/tallerweb1/servicios/ServicioLoginImpl.class
-ar/edu/unlam/tallerweb1/servicios/ServicioLogin.class
-ar/edu/unlam/tallerweb1/modelo/Jugador.class
-ar/edu/unlam/tallerweb1/modelo/Usuario.class
-ar/edu/unlam/tallerweb1/modelo/Equipo.class
-ar/edu/unlam/tallerweb1/dao/UsuarioDao.class
-ar/edu/unlam/tallerweb1/dao/UsuarioDaoImpl.class
-ar/edu/unlam/tallerweb1/controladores/ControladorLogin.class
