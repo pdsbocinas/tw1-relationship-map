@@ -93,6 +93,8 @@ public class PaisTest extends SpringTest {
         berlin.setUbicacion(ubicacion);
         session.save(berlin);
 
+        alemania.setCapital(berlin);
+
         Criteria paisCriteria = session.createCriteria(Pais.class,"p")
                                 .createAlias("capital", "c")
                                 .createAlias("c.ubicacion", "u")
@@ -100,7 +102,7 @@ public class PaisTest extends SpringTest {
 
         List<Pais> results = paisCriteria.list();
         assertThat(results).isNotNull();
-        assertThat(results).hasSize(1);
+        assertThat(results).hasSize(0);
     }
 
     @Test
