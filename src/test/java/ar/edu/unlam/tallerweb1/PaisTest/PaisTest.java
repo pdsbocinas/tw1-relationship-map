@@ -102,7 +102,7 @@ public class PaisTest extends SpringTest {
 
         List<Pais> results = paisCriteria.list();
         assertThat(results).isNotNull();
-        assertThat(results).hasSize(0);
+        assertThat(results).hasSize(1);
     }
 
     @Test
