@@ -120,17 +120,19 @@ public class PaisTest extends SpringTest {
         america.setNombre("america");
         session.save(america);
 
+        Ciudad buenosAires = new Ciudad();
+        buenosAires.setNombre("Buenos Aires");
+        buenosAires.setUbicacion(ubicacion);
+        session.save(buenosAires);
+
         Pais argentina = new Pais();
         argentina.setNombre("Argentina");
         argentina.setIdioma("español");
         argentina.setContinente(america);
+        argentina.setCapital(buenosAires);
         session.save(argentina);
 
-        Ciudad buenosAires = new Ciudad();
-        buenosAires.setNombre("Buenos Aires");
         buenosAires.setPais(argentina);
-        buenosAires.setUbicacion(ubicacion);
-        session.save(buenosAires);
 
         Criteria ciudadCriteria = session.createCriteria(Ciudad.class,"c")
                                   .createAlias("c.ubicacion","u")
